@@ -1,0 +1,18 @@
+{
+  "name": "APEX Supply Brasil",
+  "short_name": "APEX",
+  "description": "Central oficial de catálogos e atendimento da APEX Supply Brasil.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#070707",
+  "theme_color": "#090909",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
