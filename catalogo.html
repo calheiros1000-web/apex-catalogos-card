@@ -9,4 +9,22 @@
 </head>
 <body>
   <main class="shell catalog-shell">
-    <nav class="topbar"><a href="index.html">
+    <nav class="topbar"><a href="index.html">← Voltar</a><button id="printButton" type="button">Imprimir / PDF</button></nav>
+    <header class="catalog-header">
+      <p class="eyebrow">CATÁLOGO</p>
+      <h1 id="brandTitle">Laboratório</h1>
+      <p id="brandMeta" class="subtitle"></p>
+    </header>
+    <section class="toolbar">
+      <input id="productSearch" type="search" placeholder="Buscar produto, apresentação ou código" autocomplete="off">
+      <span id="productCount" class="count"></span>
+    </section>
+    <section id="productGrid" class="product-grid"></section>
+    <p id="productEmpty" class="empty" hidden>Nenhum produto encontrado.</p>
+    <a id="catalogWhatsapp" class="floating-whatsapp" target="_blank" rel="noopener noreferrer">Consultar no WhatsApp</a>
+    <footer><p>ALLEC IMPORTS/LAB</p><p class="note">Valores e disponibilidade sujeitos a confirmação.</p></footer>
+  </main>
+  <script src="catalog-data.js"></script>
+  <script src="catalog.js" defer></script>
+</body>
+</html>
