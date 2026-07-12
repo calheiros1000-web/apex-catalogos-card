@@ -9,6 +9,11 @@ window.LANDERLAN_GOLD_ASSETS = {
     statusLogo: "provisorio",
     observacaoLogo: "Substituir somente por arquivo oficial validado da marca."
   },
+  relacaoComLanderlan: {
+    grupoComum: true,
+    regraCatalogo: "Produtos compartilhados podem aparecer simultaneamente nos catálogos Landerlan e Landerlan Gold quando fizer sentido comercial e visual.",
+    observacao: "A duplicidade entre os dois catálogos é permitida e não deve ser tratada como divergência."
+  },
   fonteReferencia: {
     nome: "Medical Brasil / Kyte",
     url: "https://medical-brasil.catalog.kyte.site/landerlan-gold",
@@ -57,7 +62,8 @@ window.LANDERLAN_GOLD_ASSETS = {
       slug: "gonadotropina-corionica-humana-5000ui",
       imagem: null,
       statusImagem: "pendente-validacao-oficial",
-      observacao: "No catalogo de referencia o titulo menciona Landerlan, embora esteja listado na categoria Landerlan Gold. Exige verificacao antes de publicar."
+      catalogosPermitidos: ["landerlan", "landerlan-gold"],
+      observacao: "Produto compartilhado entre os catálogos Landerlan e Landerlan Gold, conforme regra comercial definida pelo projeto."
     },
     {
       nome: "Metenolona Enantato",
